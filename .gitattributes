@@ -1,10 +1,29 @@
-# Enforce Unix newlines
-*.*     text eol=lf
-
-*.jpg binary
-*.jpeg binary
-*.gif binary
-*.png binary
+*           text=auto
 
 *.css linguist-vendored
 *.scss linguist-vendored
+
+# enforce linux line endings
+*.md        text eol=lf
+*.txt       text eol=lf
+*.js        text eol=lf
+*.json      text eol=lf
+*.ts        text eol=lf
+*.html      text eol=lf
+*.sh        text eol=lf
+*.yml       text eol=lf
+*.bat       text eol=crlf
+
+# dotfiles configurations
+.*          text eol=lf
+
+# Graphics
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.tif       binary
+*.tiff      binary
+*.ico       binary
+# SVG treated as an asset (binary) by default. You can change it to text, if necessary
+*.svg       binary

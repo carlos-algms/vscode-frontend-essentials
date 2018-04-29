@@ -6,6 +6,9 @@
 /.tmp
 /.temp
 /out-tsc
+out
+.vscode-test/
+*.vsix
 
 # dependencies
 /node_modules/
