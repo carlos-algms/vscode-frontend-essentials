@@ -331,6 +331,23 @@
       {
         "key": "ctrl+shift+oem_3",
         "command": "-workbench.action.terminal.new"
+      },
+      {
+        "key": "ctrl+shift+k",
+        "command": "git.push"
+      },
+      {
+        "key": "ctrl+alt+k",
+        "command": "git.pull"
+      },
+      {
+        "key": "ctrl+alt+k",
+        "command": "-code-runner.runCustomCommand"
+      },
+      {
+        "key": "ctrl+shift+k",
+        "command": "-editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
       }
     ],
     "configuration": {
