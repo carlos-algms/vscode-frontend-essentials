@@ -1,0 +1,26 @@
+{
+  "console.log": {
+    "prefix": "cl",
+    "description": "Log output to console",
+    "body": ["console.log($1);$2"]
+  },
+  "console.warn": {
+    "prefix": "cw",
+    "description": "Console Warn",
+    "body": ["console.warn($1);$2"]
+  },
+  "Arrow Function": {
+    "prefix": "()",
+    "description": "Arrow Function",
+    "body": ["($1) => $2"]
+  },
+  "Named Function": {
+    "prefix": "fnc",
+    "description": "Arrow Function",
+    "body": [
+      "function $1($2) {",
+      "  $3",
+      "}"
+    ]
+  }
+}
