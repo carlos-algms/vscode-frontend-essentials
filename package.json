@@ -1,7 +1,7 @@
 {
-  "name": "frontend-essentials",
-  "displayName": "Frontend Essentials",
-  "description": "Essential extensions for Frontend developers",
+  "name": "vscode-storm",
+  "displayName": "VSCode Storm ⚡",
+  "description": "Theme, Plugins, Snippets, key-bindings to turn vscode into a WebStorm clone",
   "icon": "images/frontend.png",
   "galleryBanner": {
       "color": "#0273D4",
@@ -10,7 +10,7 @@
   "license": "SEE LICENSE IN LICENSE.md",
   "repository": {
       "type": "git",
-      "url": "https://github.com/carlos-algms/vscode-frontend-essentials.git"
+      "url": "https://github.com/carlos-algms/vscode-storm.git"
   },
   "keywords": [
       "AngularJS",
@@ -334,7 +334,7 @@
       }
     ],
     "configuration": {
-      "title": "Settings for Frontend essentials plugin",
+      "title": "Settings for VSCode Storm",
       "type": "object",
       "properties": {}
     },
