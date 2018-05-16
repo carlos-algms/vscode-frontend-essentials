@@ -44,7 +44,15 @@
     "ipatalas.vscode-angular-components-intellisense",
     "ryu1kn.partial-diff",
     "alefragnani.project-manager",
-    "robertohuertasm.vscode-icons"
+    "robertohuertasm.vscode-icons",
+    "Angular.ng-template",
+    "natewallace.angular2-inline",
+    "streetsidesoftware.code-spell-checker",
+    "PeterJausovec.vscode-docker",
+    "Zignd.html-css-class-completion",
+    "eg2.vscode-npm-script",
+    "christian-kohler.npm-intellisense"
+
   ],
   "activationEvents": [
     "onCommand:extension.sayHello"
@@ -384,6 +392,7 @@
   "devDependencies": {
     "@types/mocha": "^2.2.42",
     "@types/node": "^7.0.43",
+    "@webdev-tools/tslint-airbnb-styleguide": "0.0.1",
     "tslint": "^5.8.0",
     "tslint-config-airbnb": "^5.8.0",
     "tslint-eslint-rules": "^5.1.0",
