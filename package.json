@@ -51,8 +51,13 @@
     "PeterJausovec.vscode-docker",
     "Zignd.html-css-class-completion",
     "eg2.vscode-npm-script",
-    "christian-kohler.npm-intellisense"
-
+    "ms-vscode.jscs",
+    "dbaeumer.jshint",
+    "mrmlnc.vscode-less",
+    "mrmlnc.vscode-scss",
+    "richie5um2.vscode-sort-json",
+    "Tyriar.sort-lines",
+    "fabiospampinato.vscode-statusbar-debugger"
   ],
   "activationEvents": [
     "onCommand:extension.sayHello"
